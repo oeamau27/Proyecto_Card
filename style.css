@@ -83,3 +83,27 @@ body {
   color: #9291a0;
   font-size: 16px;
 }
+
+.btn {
+  display: block;
+  width: 100%;
+  background-color: #4f46e5;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #4338ca;
+}
+
+.cancel {
+  color: #555;
+  font-weight: bold;
+  cursor: pointer;
+}
