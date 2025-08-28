@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: url("images/pattern-background-desktop.svg");
+  background: url("images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
   background-color: #e9e2f3;
   background-size: contain;
@@ -12,8 +12,8 @@ body {
 
 .card {
   background: white;
-  width: 450px;
-  height: 620px;
+  width: 350px;
+  height: 580px;
   border-radius: 15px;
   box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
   text-align: center;
@@ -22,15 +22,15 @@ body {
 
 .card-header {
   background: url("images/illustration-hero.svg");
-  background-size: fill;
-  height: 200px;
+  background-size: contain;
+  height: 170px;
   border-radius: 15px 15px 0 0;
 }
 
 .card-content {
   padding: 20px;
-  height: 30px;
-  margin: 25px;
+  height: 300px;
+  margin: 3px;
 }
 
 .card-content h2 {
